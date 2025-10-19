@@ -1,0 +1,16 @@
+Custom Personal Use License
+==========================
+
+Copyright (c) 2025 Alex
+
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for personal, non-commercial purposes only.
+
+Restrictions:
+- The Software may NOT be sold, licensed, leased, or used for any commercial purpose.
+- The Software may NOT be redistributed, published, or shared in any form, including as part of another project or product.
+- The Software may NOT be modified for the purpose of redistribution or resale.
+- The Software is provided "as is", without warranty of any kind.
+
+By using the Software, you agree to these terms.
+
+For any other use, including commercial or redistribution, please contact the copyright holder for permission.

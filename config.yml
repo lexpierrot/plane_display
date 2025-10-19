@@ -1,0 +1,65 @@
+# config.yml
+# Main configuration for flight_display.py
+
+FPM_LANDING: 800
+TDZE: 17
+AIRPORT_CODE: KSAN
+ALT_MONITOR: 3000
+METAR_CODE: KSAN
+DEFAULT_ARRIVAL_CITY: 'San Diego, CA'
+bounds: '32.7302,32.7015,-117.176,-116.140'
+api_url: 'https://fr24api.flightradar24.com/api/live/flight-positions/full'
+flight_summary_url: 'https://fr24api.flightradar24.com/api/flight-summary/full'
+accept_version: 'v1'
+font_path: 'fonts/HelveticaNeueMedium.otf'
+fallback_font: 'Arial'
+logo_map_path: 'airline_logos.yml'
+logo_folder: 'logos/'
+default_logo: 'default.jpg'
+airport_csv: 'assets/airports.csv'
+plane_icon: 'assets/plane_icon.png'
+landing_path: 'assets/landing_path_resized.png'
+plane_image: 'assets/plane.png'
+ui_positions:
+  logo: [50, 40, 275, 275, 0, False, 'black', '#FFFFFF', 'HelveticaNeueMedium', 25]
+  flight_number: [50, 325, 275, 75, 32, True, '#5E5E5E', '#EEEEEE', 'HNC', 25]
+  departure_code: [390, 40, 400, 120, 85, True, 'black', '#FFFFFF', 'HelveticaNeueMedium', 25]
+  departure_city: [390, 160, 400, 60, 30, False, 'black', '#FFFFFF', 'HNC', 25]
+  arrival_code: [890, 40, 400, 120, 85, True, 'black', '#FFFFFF', 'HelveticaNeueMedium', 25]
+  arrival_city: [890, 160, 400, 60, 30, False, 'black', '#FFFFFF', 'HNC', 25]
+  aircraft: [790, 160, 100, 40, 22, False, '#D5D5D5', '#000000', 'HNC', 20]
+  departure_time: [500, 240, 200, 75, 35, False, '#222222', '#FFFFFF', 'HNC', 25]
+  arrival_time: [870, 240, 200, 75, 35, False, '#222222', '#FFFFFF', 'HNC', 25]
+  status: [1090, 240, 200, 75, 30, True, '#222222', '#FFFFFF', 'HNC', 25]
+  altitude: [390, 325, 210, 75, 20, False, 'black', '#D5D5D5', 'HNC', 25]
+  speed: [620, 325, 210, 75, 20, False, 'black', '#D5D5D5', 'HNC', 25]
+  distance: [850, 325, 210, 75, 20, False, 'black', '#D5D5D5', 'HNC', 25]
+  duration: [1080, 325, 210, 75, 20, False, 'black', '#D5D5D5', 'HNC', 25]
+  side_panel: [1360, 0, 560, 440, 20, False, '#404040', '#222222', 'HelveticaNeueMedium', 0]
+  ifr_status: [1390, 25, 160, 40, 18, True, '#B51700', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  ifr_msg: [1390, 65, 160, 40, 18, False, '#000000', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  weather_status: [1730, 25, 160, 40, 18, True, '#5E5E5E', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  weather_msg: [1730, 65, 160, 40, 18, False, '#000000', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  wind_status: [1560, 25, 160, 40, 18, True, '#017100', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  wind_msg: [1560, 65, 160, 40, 18, False, '#000000', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  vis_status: [1390, 115, 160, 40, 18, True, '#B51700', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  vis_msg: [1390, 155, 160, 40, 18, False, '#000000', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  cloud_status: [1560, 115, 160, 40, 18, True, '#017100', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  cloud__msg: [1560, 155, 160, 40, 18, False, '#000000', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  baro_status: [1730, 115, 160, 40, 18, True, '#5E5E5E', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  clock: [1730, 155, 160, 40, 18, True, '#000000', '#FFFFFF', 'HelveticaNeueMedium', 10]
+  landing_path: [1360, 220, 560, 220, 20, False, '#B51700', '#222222', 'HelveticaNeueMedium', 0]
+  separator: [1360, 210, 560, 10, 20, False, '#000000', '#222222', 'HelveticaNeueMedium', 0]
+  landing_plane: [1360, 220, 560, 220, 20, False, '#B51700', '#222222', 'HelveticaNeueMedium', 0]
+debug_values:
+  flight_number: 'DAL1234'
+  callsign: 'DAL'
+  departure_code: 'ATL'
+  arrival_code: 'SAN'
+  aircraft: 'A350'
+  departure_time: '10:00'
+  arrival_time: '12:00'
+  altitude: '2500 FT'
+  calculated_altitude: 2200
+  speed: '124 KTS'
+  distance: '1250 NM'
